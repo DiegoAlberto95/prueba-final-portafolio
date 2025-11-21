@@ -1,0 +1,150 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f1f2f6;
+    color: #333;
+}
+
+/* NAV */
+.navbar {
+    width: 100%;
+    background: #2f3542;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #dfe4ea;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #1e90ff;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.foto-perfil {
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #1e90ff;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.btn-primario {
+    background: #1e90ff;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.btn-primario:hover {
+    background: #0d6efd;
+}
+
+/* TARJETAS */
+.card {
+    background: white;
+    width: 85%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #1e90ff;
+}
+
+/* PORTAFOLIO */
+.contenido {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.tarjeta {
+    width: 300px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #2f3542;
+    color: white;
+    margin-top: 40px;
+}
